@@ -1,0 +1,44 @@
+# Archivos de configuración de entorno
+.env
+.env.*
+*.env
+*.env.local
+
+# Archivos de configuración de editor
+.vscode/
+.idea/
+*.sublime-project
+*.sublime-workspace
+
+# Archivos de dependencias y entornos virtuales
+venv/
+.env/
+__pycache__/
+*.pyc
+*.pyo
+*.pyd
+.Python
+
+# Archivos generados por el sistema
+.DS_Store
+Thumbs.db
+
+# Archivos de caché y log
+*.log
+*.tmp
+*.cache
+
+# Archivos de build
+build/
+dist/
+
+# Archivos de configuración de Docker (si los usas)
+docker-compose.override.yml
+Dockerfile.local
+
+# Archivos de configuración de pruebas
+coverage.xml
+nosetests.xml
+*.cover
+*.py,cover
+*.hypothesis/
