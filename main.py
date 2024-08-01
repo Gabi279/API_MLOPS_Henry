@@ -14,6 +14,8 @@ data_movies = pd.read_parquet("Data/data_movies.parquet")
 
 
 data_movies['release_year'] = pd.to_datetime(data_movies['release_date'], format='%Y-%m-%d', errors='coerce')
+data_credits = data_credits.drop('crew', axis=1)
+
 
 # Desarrollo de las funciones para los endpoints
 @app.get('/mes', tags=['Películas por mes'])
