@@ -14,7 +14,12 @@ EDA:
 Una vez hecha la limpieza de datos, se hace un análisis para detectar relaciones entre las variables o las columnas, para poder mostrar estas relaciones y poder trabajar en un futuro con ellas.
 
 Desarrollo de API:
-Se crean las funciones para desarrollar la API con FastAPI y deployar con Render.
-Además se crea la función para hacer el sistema de recomencaiones.
+Se crean las funciones para desarrollar la API con FastAPI y deployar con Render. Además se crea la función para hacer el sistema de recomencaiones.
 
-.
+A través del siguiente link https://api-mlops-henry-n5ve.onrender.com/docs# se puede acceder a Render para ver el proyecto
+
+También se puede acceder al repositorio del proyecto a través del siguiente link:
+https://github.com/Gabi279/API_MLOPS_Henry
+
+Y para finalizar, en el siguiente video se explica el funcionamiento de la API y el código con el que se la creo:
+https://youtu.be/ylh_ZJT25qk
